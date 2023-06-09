@@ -1,0 +1,147 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h2, h3, h4, p {
+  margin:0px;
+}
+
+.card {
+  background-color: hsl(210, 46%, 95%);
+  width: 1400px;
+  height: 720px;
+  padding: 50px;
+}
+
+#left-panels {
+  width: 75%;
+  height: 100%;
+  float:left;
+  border-radius: 10px;
+}
+
+#right-panel {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  width: 25%;
+  height: 100%;
+  background-color: white;
+  padding: 40px;
+  box-shadow: 53px 46px 45px -42px rgba(0,0,0,0.23);
+  border-radius: 10px;
+}
+
+#top-panels {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  height: 50%;
+  margin-bottom: 20px;
+}
+#bottom-panels {
+  display: inline-block;
+  width: 100%;
+  height: 47%;
+}
+
+#top-left-panel {
+  display: inline-block;
+  vertical-align: top;
+  width: 64%;
+  height: 100%;
+  border-radius: 10px;
+  color: white;
+  margin-right: 22px;
+  padding: 40px;
+  background-color: hsl(263, 55%, 52%);
+}
+
+#top-center-panel {
+  display: inline-block;
+  vertical-align: top;
+  width: 31%;
+  height: 100%;
+  border-radius: 10px;
+  padding: 40px;
+  color: white;
+  background-color: hsl(217, 19%, 35%);
+}
+
+#bottom-left-panel {
+  display: inline-block;
+  vertical-align: top;
+  width: 31%;
+  height: 100%;
+  margin-right: 22px;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 53px 46px 45px -42px rgba(0,0,0,0.23);
+}
+
+#bottom-center-panel {
+  display: inline-block;
+  vertical-align: top;
+  width: 64%;
+  height: 100%;
+  border-radius: 10px;
+  padding: 40px;
+  color: white;
+  background-color: hsl(219, 29%, 14%);
+}
+
+#quotation-mark-img {
+  width: 128px;
+  height: 140px;
+  position: absolute;
+  left: 444px;
+  top: 60px;
+  opacity: 0.2;
+}
+
+
+.profile-picture {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  vertical-alignment: top;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 1.2rem;
+}
+
+.highlight {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 1.8rem;
+  position: relative;
+}
+
+.quote {
+  margin-top: 20px;
+  opacity: 0.7;
+}
+
+.status {
+  opacity: 0.5;
+  font-size: 1.1rem;
+}
+
+.name-highlight-container {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  top: -5px;
+  margin-left: 15px;
+}
