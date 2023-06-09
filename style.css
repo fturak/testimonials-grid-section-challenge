@@ -13,11 +13,12 @@ h2, h3, h4, p {
   margin:0px;
 }
 
-.card {
+#card {
   background-color: hsl(210, 46%, 95%);
   width: 1400px;
   height: 720px;
   padding: 50px;
+  
 }
 
 #left-panels {
@@ -28,8 +29,7 @@ h2, h3, h4, p {
 }
 
 #right-panel {
-  display: inline-block;
-  vertical-align: top;
+  position: relative;
   float: right;
   width: 25%;
   height: 100%;
@@ -144,4 +144,11 @@ h2, h3, h4, p {
   vertical-align: top;
   top: -5px;
   margin-left: 15px;
+}
+
+@media screen and (max-width: 1440px) {
+  #left-panels, #right-panel, #top-panels, #bottom-panels, #top-left-panel, #top-center-panel, #bottom-left-panel, #bottom-center-panel, #card{
+    width: 100%;
+    height: auto;
+  }
 }
