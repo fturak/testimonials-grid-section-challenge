@@ -146,7 +146,7 @@ h2, h3, h4, p {
   margin-left: 15px;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1080px) {
   #left-panels, #right-panel, #top-panels, #bottom-panels, #top-left-panel, #top-center-panel, #bottom-left-panel, #bottom-center-panel, #card{
     width: 100%;
     height: auto;
